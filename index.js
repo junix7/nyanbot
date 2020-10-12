@@ -29,4 +29,4 @@ client.on('message', msg => {
 
 
 // Add bot login here.
-client.login(process.env.token);
+client.login('NjczMjA3NTY0NjExMjIzNTYz.XjWrjw.EDRDcOMWNoTWnUxizWi-L5s_Dts');
