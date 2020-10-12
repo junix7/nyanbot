@@ -104,6 +104,18 @@ const command = args.shift().toLowerCase();
 
 
 
+// COMANDO DE BIENVENIDAS
+
+client.on('guildMemberAdd',member => {
+    const welcome = member.guild.channels.cache.find(welcome => welcome.name === "📣chat-general");
+    if (!welcome) return;
+    welcome.send(`Bienvenid@ al servidor de NyanCode!!! ${member}`);
+});
+
+
+  //AQUI TERMINAN LOS COMANDOS
+});
+
 
 
 
