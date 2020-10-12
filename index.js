@@ -4,6 +4,11 @@ const client = new Discord.Client();
 const cooldown = new Set()
 
 
+
+// Add bot login here.
+client.login('NjczMjA3NTY0NjExMjIzNTYz.XjWrjw.EDRDcOMWNoTWnUxizWi-L5s_Dts');
+
+
 client.on("ready", () => {
    console.log(`Estoy listo!, conectado en ${client.guilds.cache.size} servidores y  ${client.users.cache.size} usuarios.`);
   
@@ -83,6 +88,18 @@ const command = args.shift().toLowerCase();
   if (!message.content.startsWith(prefix)) return;
   if (message.author.bot) return;
 
+//INICIO DE LOS COMANDOS >2<
+
+ //COMANDO 8BALL---------------------------
+ if(command === '8ball'){
+  if(!args[2]){
+      return message.channel.send(`Escriba una pregunta.`);
+  }
+     var rpts = ["Sí", "No", "¿Por qué?", "Por favor", "Tal vez", "No sé", "Definitivamente?", " ¡Claro! "," Sí "," No "," Por supuesto! "," Por supuesto que no "];
+
+     message.channel.send(message.author.username +' mi respuesta es:'+ rpts[Math.floor(Math.random() * rpts.length)]+'`');
+
+ }
 
 
 
@@ -92,6 +109,3 @@ const command = args.shift().toLowerCase();
 
 
 
-
-// Add bot login here.
-client.login('NjczMjA3NTY0NjExMjIzNTYz.XjWrjw.EDRDcOMWNoTWnUxizWi-L5s_Dts');
