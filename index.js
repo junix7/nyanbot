@@ -6,7 +6,7 @@ const cooldown = new Set()
 
 
 // Add bot login here.
-client.login('NjczMjA3NTY0NjExMjIzNTYz.XjWrZg.M2MOlUU9A_8gaf4KuHqex8zrwQo');
+client.login('ODU1ODQ4NDYyMjUxMDY1MzQ0.YM4c_g.iG7VQ6lnTyzgkZjFyEIleIcO5nw');
 
 
 client.on("ready", () => {
