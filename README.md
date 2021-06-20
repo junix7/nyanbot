@@ -3,7 +3,7 @@
 
 ![label image](https://img.shields.io/badge/status-in%20progress-yellow)
 
-![label image](https://github.com/junix7/nyanbot/blob/master/images/logo.png)
+![label image](https://github.com/junix7/nyanbot/blob/master/nyanbot.png)
 
 
 ## Descripción 📝️
